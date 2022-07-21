@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'yekan';
+    src        : url(./Assets/fonts/yekan/yekan.woff) format('woff');
+    font-weight: normal;
+    font-style : normal;
+}
+
+
+
+
+body {
+    direction  : rtl;
+    text-align : right;
+    font-family: 'yekan';
+}
+
+
+
+
+.list-unstyled {
+    padding-right: 0;
+}
+
+
+
+.btn-group>.btn {
+    border-radius: 0;
+}
+
+.btn-group>.btn:first-child {
+    border-top-right-radius   : 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.btn-group>.btn:last-child {
+    border-top-left-radius   : 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+
+.btn-group>.btn-sm:first-child {
+    border-top-right-radius   : 0.2rem !important;
+    border-bottom-right-radius: 0.2rem !important;
+}
+
+
+.btn-group>.btn-lg:first-child {
+    border-top-right-radius   : 0.3rem !important;
+    border-bottom-right-radius: 0.3rem !important;
+}
+
+
+
+.btn-group>.btn-group:not(:first-child),
+.btn-group>.btn:not(:first-child) {
+    margin-right: -1px;
+    margin-left : 0;
+}
+
+
+.list-group {
+    padding-right: 0;
+}
+
+
+
+.input-group-prepend {
+    margin-left : -1px;
+    margin-right: 0;
+}
+
+input-group-append {
+    margin-right: -1px;
+    margin-left : 0;
+}
+
+
+
+.btn-group>.btn,
+.input-group>.form-control,
+.input-group-text,
+.input-group>.input-group-append>.btn,
+.input-group>.input-group-prepend>.btn {
+    border-radius: 0;
+}
+
+.btn-group>.btn:first-child,
+.input-group>.form-control:first-child,
+.input-group>.input-group-prepend>.btn:first-child,
+.input-group>.input-group-prepend>.input-group-text {
+    border-top-right-radius   : 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.btn-group>.btn-sm:first-child .input-group>.form-control-sm:first-child,
+.input-group>.input-group-prepend>.btn-sm:first-child {
+    border-top-right-radius   : 0.2rem !important;
+    border-bottom-right-radius: 0.2rem !important;
+}
+
+.btn-group>.btn-lg:first-child .input-group>.form-control-lg:first-child,
+.input-group>.input-group-prepend>.btn-lg:first-child {
+    border-top-right-radius   : 0.3rem !important;
+    border-bottom-right-radius: 0.3rem !important;
+}
+
+.btn-group>.btn:last-child,
+.input-group>.form-control:last-child,
+.input-group>.input-group-append>.btn:last-child,
+.input-group>.input-group-append>.input-group-text {
+    border-top-left-radius   : 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.btn-group>.btn-sm:last-child,
+.input-group>.form-control:last-child,
+.input-group>.input-group-append>.btn-sm:last-child {
+    border-top-left-radius   : 0.2rem !important;
+    border-bottom-left-radius: 0.2rem !important;
+}
+
+.btn-group>.btn-lg:last-child,
+.input-group>.form-control:last-child,
+.input-group>.input-group-append>.btn-lg:last-child {
+    border-top-left-radius   : 0.3rem !important;
+    border-bottom-left-radius: 0.3rem !important;
+}
+
+
+
+
+
+
+.custom-control {
+    padding-left : 0;
+    padding-right: 1.5rem;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+    right: -1.5rem;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-left : 0.5rem;
+    margin-right: 0;
+}
+
+
+.list-inline-item:not(:last-child){
+    margin-left: 0.5rem;
+    margin-right: 0;
+}
+
+
+
+
+@media screen and(min-width:768px) {
+
+
+    .offset-md-1 {
+        margin-right: 8.333333%;
+        margin-left : 0;
+    }
+}
